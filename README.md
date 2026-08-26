@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-This repository contains an end-to-end quantitative research pipeline built for the **EBX Quant Challenge (Inter-IIT Prepathon 2026)**. The analysis evaluates 1-second price bars across three core dimensions:
+This repository contains an end-to-end quantitative research pipeline built for the **EBX Quant Challenge **. The analysis evaluates 1-second price bars across three core dimensions:
 1. **Part 1 (Data Hygiene & Descriptive Statistics):** Ingestion sanity checks, microstructure noise diagnostics via autocorrelation, and 5-minute binned intraday volatility seasonality.
 2. **Part 2 (Distributional & Tail Risk Analysis):** Formal normality testing (JB, D'Agostino, AD, Shapiro-Wilk), empirical vs. Gaussian $\sigma$-event multipliers, volatility clustering, non-parametric Hill tail indices, and a rare-event catalogue.
 3. **Part 3 (Regime Classification & Dynamics):** Independent daily classification into Random Walk vs. Momentum regimes using Hurst Exponent and Variance Ratio tests, coupled with a first-order Markov transition probability matrix.
@@ -16,8 +16,56 @@ This repository contains an end-to-end quantitative research pipeline built for 
 
 ## 📁 Repository Structure
 
-├── src/ # Source code modules │ ├── ingestion/ │ │ └── Ingestion_sanity.py # Part 1: Pipeline sanity checks │ ├── descriptive_stats.py # Part 1: Per-day & pooled statistics │ ├── intraday_seasonality.py # Part 1: 5-min binned intraday volatility │ ├── normality_testing.py # Part 2: JB, D'Agostino, AD, and Shapiro tests │ ├── sigma_analysis.py # Part 2: Sigma-event exceedance calculations │ ├── volatility_clustering.py # Part 2: Runs test & clustering analysis │ ├── hill_estimator.py # Part 2: Hill tail index & excess kurtosis │ ├── rare_event_catalogue.py # Part 2: Top 20 extreme 1-minute moves │ ├── regime_classification.py # Part 3: Hurst exponent & Variance Ratio │ └── regime_transitions.py # Part 3: Markov transition matrix │ ├── results/ # Generated CSV artifacts │ ├── sanity_report.csv │ ├── per_day_descriptive_stats.csv │ ├── pooled_descriptive_stats.csv │ ├── acf_returns_lag1_to_60.csv │ ├── volatility_seasonality.csv │ ├── normality_tests.csv │ ├── sigma_events_per_day.csv │ ├── sigma_events_pooled.csv │ ├── sigma_clustering_per_day.csv │ ├── sigma_clustering_test.csv │ ├── hill_tail_index.csv │ ├── rare_event_catalogue.csv │ ├── regime_classification_85days.csv │ ├── regime_summary_breakdown.csv │ ├── regime_transition_counts.csv │ └── regime_transition_matrix.csv │ ├── plots/ # High-resolution figures │ ├── volatility_seasonality.png │ ├── 1m_return_vs_fitted_normal_curve_plot.png │ ├── 5m_return_vs_fitted_normal_curve_plot.png │ ├── 1m_qq_plot_hill_tail_index.png │ ├── 5m_qq_plot_hill_tail_index.png │ ├── volatility_clustering_bar_chart.png │ └── regime_transition_heatmap.png │ ├── reports/ # Final research submission │ ├── final_report.tex │ └── final_report.pdf │ └── README.mds
----
+
+```text
+ebx-quant-challenge-2026/
+├── src/                                  # Source code modules
+│   ├── ingestion/
+│   │   └── Ingestion_sanity.py           # Part 1: Pipeline sanity checks
+│   ├── descriptive_stats.py              # Part 1: Per-day & pooled statistics
+│   ├── intraday_seasonality.py           # Part 1: 5-min binned intraday volatility
+│   ├── normality_testing.py              # Part 2: JB, D'Agostino, AD, and Shapiro tests
+│   ├── sigma_analysis.py                 # Part 2: Sigma-event exceedance calculations
+│   ├── volatility_clustering.py          # Part 2: Runs test & clustering analysis
+│   ├── hill_estimator.py                 # Part 2: Hill tail index & excess kurtosis
+│   ├── rare_event_catalogue.py           # Part 2: Top 20 extreme 1-minute moves
+│   ├── regime_classification.py          # Part 3: Hurst exponent & Variance Ratio
+│   └── regime_transitions.py             # Part 3: Markov transition matrix
+│
+├── results/                              # Generated CSV artifacts
+│   ├── sanity_report.csv
+│   ├── per_day_descriptive_stats.csv
+│   ├── pooled_descriptive_stats.csv
+│   ├── acf_returns_lag1_to_60.csv
+│   ├── volatility_seasonality.csv
+│   ├── normality_tests.csv
+│   ├── sigma_events_per_day.csv
+│   ├── sigma_events_pooled.csv
+│   ├── sigma_clustering_per_day.csv
+│   ├── sigma_clustering_test.csv
+│   ├── hill_tail_index.csv
+│   ├── rare_event_catalogue.csv
+│   ├── regime_classification_85days.csv
+│   ├── regime_summary_breakdown.csv
+│   ├── regime_transition_counts.csv
+│   └── regime_transition_matrix.csv
+│
+├── plots/                                # High-resolution figures
+│   ├── volatility_seasonality.png
+│   ├── 1m_return_vs_fitted_normal_curve_plot.png
+│   ├── 5m_return_vs_fitted_normal_curve_plot.png
+│   ├── 1m_qq_plot_hill_tail_index.png
+│   ├── 5m_qq_plot_hill_tail_index.png
+│   ├── volatility_clustering_bar_chart.png
+│   └── regime_transition_heatmap.png
+│
+├── reports/                              # Final research submission
+│   ├── final_report.tex
+│   └── final_report.pdf
+│
+└── README.md
+```
+
 
 ## 🔬 Key Empirical Findings
 
@@ -58,6 +106,17 @@ python src/regime_classification.py
 python src/regime_transitions.py
 
 ---
+---
+
+## 🚀 Reproduction Guide
+
+### 1. Environment Setup
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+pip install pandas numpy scipy matplotlib seaborn
+
+
 
 ## 🛠️ Tech Stack & Dependencies
 
