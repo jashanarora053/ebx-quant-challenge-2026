@@ -1,0 +1,13 @@
+Scope,Horizon,Observations,Skewness,Excess Kurtosis,Normality Decision,Primary Tail Driver
+Day 1,1min,"23,280",-0.494,+2.955,REJECT (p ≈ 0.00),Mild Fat Tails
+Day 1,5min,"23,040",-0.262,+1.688,REJECT (p ≈ 0.00),Mild Fat Tails
+Day 20,1min,"23,280",-0.310,+1.591,REJECT (p ≈ 0.00),Mild Fat Tails
+Day 20,5min,"23,040",-0.264,+2.344,REJECT (p ≈ 0.00),Mild Fat Tails
+Day 40,1min,"23,280",-0.579,+4.157,REJECT (p ≈ 0.00),Strong Fat Tails
+Day 40,5min,"23,040",-0.242,+1.285,REJECT (p ≈ 0.00),Mild Fat Tails
+Day 60,1min,"17,220",-1.631,+18.770,REJECT (p ≈ 0.00),Extreme Leptokurtosis (Heavy Fat Tails)
+Day 60,5min,"16,980",-2.032,+12.376,REJECT (p ≈ 0.00),Extreme Leptokurtosis (Heavy Fat Tails)
+Day 85,1min,"23,280",+1.359,+10.949,REJECT (p ≈ 0.00),Extreme Leptokurtosis (Heavy Fat Tails)
+Day 85,5min,"23,040",+1.802,+8.735,REJECT (p ≈ 0.00),Strong Fat Tails
+Pooled (All 85 Days),1min,"1,591,812",+0.295,+16.294,REJECT (p ≈ 0.00),Extreme Leptokurtosis (Heavy Fat Tails)
+Pooled (All 85 Days),5min,"1,575,012",+0.099,+11.427,REJECT (p ≈ 0.00),Extreme Leptokurtosis (Heavy Fat Tails)
