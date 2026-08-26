@@ -1,0 +1,3 @@
+day,horizon,n_obs,actual_1sigma,expected_1sigma,ratio_1sigma,actual_2sigma,expected_2sigma,ratio_2sigma,actual_3sigma,expected_3sigma,ratio_3sigma,actual_4sigma,expected_4sigma,ratio_4sigma,actual_5sigma,expected_5sigma,ratio_5sigma
+pooled,1min,1591812,314469,505098.67,0.62,78381,72427.87,1.08,26668,4297.57,6.21,10735,100.83,106.47,5014,0.91,5494.25
+pooled,5min,1575012,321895,499767.86,0.64,79602,71663.46,1.11,25330,4252.21,5.96,9631,99.77,96.54,4370,0.9,4839.64
