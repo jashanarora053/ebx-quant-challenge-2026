@@ -1,0 +1,71 @@
+day,hurst_exponent,hurst_classification,variance_ratio_q5,vr_z_statistic,vr_classification,tests_agreement,final_regime
+1,0.5438,Random Walk,0.9067,-5.0391,Mean-Reverting,Disagree,Random Walk
+2,0.5284,Random Walk,1.0142,0.7643,Random Walk,Agree,Random Walk
+3,0.5215,Random Walk,0.9389,-3.3002,Mean-Reverting,Disagree,Random Walk
+4,0.5371,Random Walk,0.9595,-2.186,Random Walk,Agree,Random Walk
+5,0.5575,Momentum,0.9894,-0.5704,Random Walk,Disagree,Momentum
+6,0.5442,Random Walk,0.9546,-2.4512,Random Walk,Agree,Random Walk
+7,0.5483,Random Walk,0.9023,-5.2774,Mean-Reverting,Disagree,Random Walk
+8,0.53,Random Walk,0.9547,-2.4463,Random Walk,Agree,Random Walk
+9,0.5091,Random Walk,0.927,-3.9419,Mean-Reverting,Disagree,Random Walk
+10,0.5454,Random Walk,0.979,-1.1326,Random Walk,Agree,Random Walk
+11,0.518,Random Walk,0.9106,-4.8272,Mean-Reverting,Disagree,Random Walk
+12,0.5423,Random Walk,0.9473,-2.8478,Mean-Reverting,Disagree,Random Walk
+13,0.5279,Random Walk,0.9726,-1.4782,Random Walk,Agree,Random Walk
+14,0.5268,Random Walk,0.9564,-2.3572,Random Walk,Agree,Random Walk
+15,0.5382,Random Walk,1.0043,0.231,Random Walk,Agree,Random Walk
+16,0.5313,Random Walk,0.9711,-1.5595,Random Walk,Agree,Random Walk
+17,0.5247,Random Walk,0.8384,-8.7302,Mean-Reverting,Disagree,Random Walk
+18,0.5429,Random Walk,0.9927,-0.3943,Random Walk,Agree,Random Walk
+19,0.5678,Momentum,0.9866,-0.7235,Random Walk,Disagree,Momentum
+20,0.5718,Momentum,0.9387,-3.3101,Mean-Reverting,Disagree,Momentum
+21,0.5465,Random Walk,0.9527,-2.5527,Random Walk,Agree,Random Walk
+22,0.5532,Momentum,0.9754,-1.3277,Random Walk,Disagree,Momentum
+23,0.5232,Random Walk,0.8808,-6.4366,Mean-Reverting,Disagree,Random Walk
+24,0.5011,Random Walk,0.9155,-4.5656,Mean-Reverting,Disagree,Random Walk
+25,0.5464,Random Walk,0.9149,-4.5977,Mean-Reverting,Disagree,Random Walk
+26,0.523,Random Walk,0.9728,-1.4711,Random Walk,Agree,Random Walk
+27,0.5431,Random Walk,1.0802,4.332,Momentum,Disagree,Random Walk
+28,0.527,Random Walk,0.9987,-0.0705,Random Walk,Agree,Random Walk
+29,0.5663,Momentum,0.9673,-1.764,Random Walk,Disagree,Momentum
+30,0.5365,Random Walk,0.9306,-3.7465,Mean-Reverting,Disagree,Random Walk
+31,0.5455,Random Walk,0.9308,-3.7397,Mean-Reverting,Disagree,Random Walk
+32,0.5414,Random Walk,0.9567,-2.3375,Random Walk,Agree,Random Walk
+33,0.5435,Random Walk,0.9729,-1.4613,Random Walk,Agree,Random Walk
+34,0.5294,Random Walk,0.9629,-2.0039,Random Walk,Agree,Random Walk
+35,0.5318,Random Walk,0.9684,-1.7088,Random Walk,Agree,Random Walk
+36,0.5197,Random Walk,0.9236,-4.1267,Mean-Reverting,Disagree,Random Walk
+37,0.5448,Random Walk,0.9542,-2.4731,Random Walk,Agree,Random Walk
+38,0.5289,Random Walk,0.9411,-3.182,Mean-Reverting,Disagree,Random Walk
+39,0.5142,Random Walk,1.0034,0.1828,Random Walk,Agree,Random Walk
+40,0.5226,Random Walk,0.913,-4.6973,Mean-Reverting,Disagree,Random Walk
+41,0.5352,Random Walk,0.9986,-0.0735,Random Walk,Agree,Random Walk
+42,0.536,Random Walk,0.917,-4.4849,Mean-Reverting,Disagree,Random Walk
+43,0.5554,Momentum,0.9841,-0.8579,Random Walk,Disagree,Momentum
+44,0.5546,Momentum,0.9825,-0.9465,Random Walk,Disagree,Momentum
+45,0.5276,Random Walk,0.9546,-2.45,Random Walk,Agree,Random Walk
+46,0.515,Random Walk,0.8839,-6.2728,Mean-Reverting,Disagree,Random Walk
+47,0.5455,Random Walk,0.9895,-0.5667,Random Walk,Agree,Random Walk
+48,0.5362,Random Walk,1.0184,0.9953,Random Walk,Agree,Random Walk
+49,0.5399,Random Walk,1.0245,1.3229,Random Walk,Agree,Random Walk
+50,0.5259,Random Walk,0.967,-1.7826,Random Walk,Agree,Random Walk
+51,0.521,Random Walk,0.9685,-1.7038,Random Walk,Agree,Random Walk
+52,0.512,Random Walk,0.9375,-3.3743,Mean-Reverting,Disagree,Random Walk
+53,0.5094,Random Walk,0.9806,-1.047,Random Walk,Agree,Random Walk
+54,0.5425,Random Walk,1.0216,1.165,Random Walk,Agree,Random Walk
+55,0.5534,Momentum,0.9684,-1.7094,Random Walk,Disagree,Momentum
+56,0.5243,Random Walk,0.9826,-0.9416,Random Walk,Agree,Random Walk
+57,0.5201,Random Walk,0.9443,-3.0111,Mean-Reverting,Disagree,Random Walk
+58,0.5378,Random Walk,0.9239,-4.1096,Mean-Reverting,Disagree,Random Walk
+59,0.5378,Random Walk,0.991,-0.4848,Random Walk,Agree,Random Walk
+60,0.5369,Random Walk,1.0016,0.0733,Random Walk,Agree,Random Walk
+61,0.524,Random Walk,1.0377,1.7461,Random Walk,Agree,Random Walk
+62,0.5234,Random Walk,0.8889,-4.7857,Mean-Reverting,Disagree,Random Walk
+63,0.5549,Momentum,1.0245,1.0603,Random Walk,Disagree,Momentum
+64,0.4997,Random Walk,0.9707,-1.2568,Random Walk,Agree,Random Walk
+80,0.5363,Random Walk,0.923,-4.1582,Mean-Reverting,Disagree,Random Walk
+81,0.518,Random Walk,0.9668,-1.7922,Random Walk,Agree,Random Walk
+82,0.5276,Random Walk,0.8707,-6.9813,Mean-Reverting,Disagree,Random Walk
+83,0.5327,Random Walk,0.9639,-1.9506,Random Walk,Agree,Random Walk
+84,0.5315,Random Walk,0.9431,-3.0746,Mean-Reverting,Disagree,Random Walk
+85,0.5285,Random Walk,0.9457,-2.9347,Mean-Reverting,Disagree,Random Walk
