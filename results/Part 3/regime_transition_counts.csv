@@ -1,0 +1,4 @@
+from_regime,Mean-Reverting,Momentum,Random Walk
+Mean-Reverting,0,0,0
+Momentum,0,2,7
+Random Walk,0,7,53
