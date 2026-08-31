@@ -1,0 +1,692 @@
+masked_col,family,best_formula,best_window,best_r,runner_up_formula,runner_up_r,verdict,price_derived
+PB1_T1,PB1,logret_avg,5,1.0,pct_momentum__5,1.0,EXACT MATCH,YES
+PB1_T2,PB1,logret_avg,10,1.0,pct_momentum__10,1.0,EXACT MATCH,YES
+PB1_T3,PB1,logret_avg,30,1.0,pct_momentum__30,1.0,EXACT MATCH,YES
+PB1_T4,PB1,logret_avg,60,1.0,pct_momentum__60,1.0,EXACT MATCH,YES
+PB1_T5,PB1,sma_pct_dev,120,0.938,sma_dev__120,0.938,STRONG MATCH,YES
+PB1_T6,PB1,logret_avg,120,1.0,pct_momentum__120,1.0,EXACT MATCH,YES
+PB1_T7,PB1,logret_avg,300,1.0,pct_momentum__300,1.0,EXACT MATCH,YES
+PB1_T8,PB1,logret_avg,600,1.0,pct_momentum__600,1.0,EXACT MATCH,YES
+PB1_T9,PB1,sma_dev,1200,0.935,sma_pct_dev__1200,0.935,STRONG MATCH,YES
+PB1_T10,PB1,sma_pct_dev,1800,0.9191,sma_dev__1800,0.9191,STRONG MATCH,YES
+PB1_T11,PB1,logret_avg,1800,1.0,pct_momentum__1800,1.0,EXACT MATCH,YES
+PB1_T12,PB1,logret_avg,3600,1.0,pct_momentum__3600,1.0,EXACT MATCH,YES
+PB2_T1,PB2,logret_avg,5,0.7104,pct_momentum__5,0.7104,STRONG MATCH,YES
+PB2_T2,PB2,pct_momentum,10,0.7059,logret_avg__10,0.7059,STRONG MATCH,YES
+PB2_T3,PB2,logret_avg,30,0.6991,pct_momentum__30,0.6991,WEAK,NO
+PB2_T4,PB2,logret_avg,60,0.7058,pct_momentum__60,0.7058,STRONG MATCH,YES
+PB2_T5,PB2,sma_dev,120,0.6221,sma_pct_dev__120,0.622,WEAK,NO
+PB2_T6,PB2,logret_avg,120,0.7042,pct_momentum__120,0.7042,STRONG MATCH,YES
+PB2_T7,PB2,logret_avg,300,0.7079,pct_momentum__300,0.7079,STRONG MATCH,YES
+PB2_T8,PB2,pct_momentum,600,0.7209,logret_avg__600,0.7209,STRONG MATCH,YES
+PB2_T9,PB2,sma_dev,1200,0.622,sma_pct_dev__1200,0.6218,WEAK,NO
+PB2_T10,PB2,pct_momentum,1200,0.6144,logret_avg__1200,0.6143,WEAK,NO
+PB2_T11,PB2,pct_momentum,1800,0.6841,logret_avg__1800,0.684,WEAK,NO
+PB2_T12,PB2,pct_momentum,3600,0.6872,logret_avg__3600,0.687,WEAK,NO
+PB3_T1,PB3,z_norm,10,0.9302,stochastic__10,0.9142,STRONG MATCH,YES
+PB3_T2,PB3,z_norm,30,0.9373,stochastic__30,0.9073,STRONG MATCH,YES
+PB3_T3,PB3,z_norm,60,0.9277,z_norm__120,0.9207,STRONG MATCH,YES
+PB3_T4,PB3,z_norm,120,0.9284,stochastic__120,0.9136,STRONG MATCH,YES
+PB3_T5,PB3,z_norm,300,0.9369,stochastic__300,0.8965,STRONG MATCH,YES
+PB3_T6,PB3,z_norm,300,0.9413,stochastic__300,0.9144,STRONG MATCH,YES
+PB3_T7,PB3,z_norm,600,0.9298,z_norm__1200,0.9255,STRONG MATCH,YES
+PB3_T8,PB3,z_norm,1800,0.941,z_norm__1200,0.929,STRONG MATCH,YES
+PB3_T9,PB3,z_norm,1800,0.9253,z_norm__3600,0.9249,STRONG MATCH,YES
+PB3_T10,PB3,z_norm,3600,0.9327,stochastic__3600,0.9025,STRONG MATCH,YES
+PB3_T11,PB3,z_norm,3600,0.9119,stochastic__3600,0.8903,STRONG MATCH,YES
+PB3_T12,PB3,sma_pct_dev,3600,0.2165,sma_dev__3600,0.2165,NO MATCH,NO
+PB4_T1,PB4,logret_avg,5,1.0,pct_momentum__5,1.0,EXACT MATCH,YES
+PB4_T2,PB4,logret_avg,10,1.0,pct_momentum__10,1.0,EXACT MATCH,YES
+PB4_T3,PB4,logret_avg,30,1.0,pct_momentum__30,1.0,EXACT MATCH,YES
+PB4_T4,PB4,logret_avg,60,1.0,pct_momentum__60,1.0,EXACT MATCH,YES
+PB4_T5,PB4,sma_pct_dev,120,0.938,sma_dev__120,0.938,STRONG MATCH,YES
+PB4_T6,PB4,logret_avg,120,1.0,pct_momentum__120,1.0,EXACT MATCH,YES
+PB4_T7,PB4,logret_avg,300,1.0,pct_momentum__300,1.0,EXACT MATCH,YES
+PB4_T8,PB4,logret_avg,600,1.0,pct_momentum__600,1.0,EXACT MATCH,YES
+PB4_T9,PB4,sma_dev,1200,0.935,sma_pct_dev__1200,0.935,STRONG MATCH,YES
+PB4_T10,PB4,sma_pct_dev,1800,0.9191,sma_dev__1800,0.9191,STRONG MATCH,YES
+PB4_T11,PB4,logret_avg,1800,1.0,pct_momentum__1800,1.0,EXACT MATCH,YES
+PB4_T12,PB4,logret_avg,3600,1.0,pct_momentum__3600,1.0,EXACT MATCH,YES
+PB5_T1,PB5,pct_momentum,5,1.0,logret_avg__5,1.0,EXACT MATCH,YES
+PB5_T2,PB5,pct_momentum,10,1.0,logret_avg__10,1.0,EXACT MATCH,YES
+PB5_T3,PB5,pct_momentum,30,1.0,logret_avg__30,1.0,EXACT MATCH,YES
+PB5_T4,PB5,pct_momentum,60,1.0,logret_avg__60,1.0,EXACT MATCH,YES
+PB5_T5,PB5,sma_pct_dev,120,0.938,sma_dev__120,0.9379,STRONG MATCH,YES
+PB5_T6,PB5,pct_momentum,120,1.0,logret_avg__120,1.0,EXACT MATCH,YES
+PB5_T7,PB5,pct_momentum,300,1.0,logret_avg__300,1.0,EXACT MATCH,YES
+PB5_T8,PB5,pct_momentum,600,1.0,logret_avg__600,1.0,EXACT MATCH,YES
+PB5_T9,PB5,sma_dev,1200,0.935,sma_pct_dev__1200,0.935,STRONG MATCH,YES
+PB5_T10,PB5,sma_dev,1800,0.9191,sma_pct_dev__1800,0.9191,STRONG MATCH,YES
+PB5_T11,PB5,pct_momentum,1800,1.0,logret_avg__1800,1.0,EXACT MATCH,YES
+PB5_T12,PB5,pct_momentum,3600,1.0,logret_avg__3600,1.0,EXACT MATCH,YES
+PB6_T1,PB6,logret_avg,10,0.9227,pct_momentum__10,0.9227,STRONG MATCH,YES
+PB6_T2,PB6,logret_avg,30,0.882,pct_momentum__30,0.882,STRONG MATCH,YES
+PB6_T3,PB6,sma_pct_dev,120,0.8935,sma_dev__120,0.8935,STRONG MATCH,YES
+PB6_T4,PB6,sma_dev,300,0.883,sma_pct_dev__300,0.883,STRONG MATCH,YES
+PB6_T5,PB6,sma_pct_dev,300,0.8607,sma_dev__300,0.8606,STRONG MATCH,YES
+PB6_T6,PB6,pct_momentum,300,0.8967,logret_avg__300,0.8967,STRONG MATCH,YES
+PB6_T7,PB6,sma_pct_dev,1200,0.8803,sma_dev__1200,0.8802,STRONG MATCH,YES
+PB6_T8,PB6,logret_avg,1200,0.8718,pct_momentum__1200,0.8718,STRONG MATCH,YES
+PB6_T9,PB6,sma_pct_dev,3600,0.8741,sma_dev__3600,0.8741,STRONG MATCH,YES
+PB6_T10,PB6,logret_avg,3600,0.8995,pct_momentum__3600,0.8995,STRONG MATCH,YES
+PB6_T11,PB6,logret_avg,3600,0.8738,pct_momentum__3600,0.8737,STRONG MATCH,YES
+PB6_T12,PB6,sma,1200,0.6818,sma_median__1200,0.6815,WEAK,NO
+PB7_T1,PB7,z_norm,5,1.0,stochastic__5,0.9409,EXACT MATCH,YES
+PB7_T2,PB7,z_norm,10,1.0,stochastic__10,0.9435,EXACT MATCH,YES
+PB7_T3,PB7,z_norm,30,1.0,stochastic__30,0.9459,EXACT MATCH,YES
+PB7_T4,PB7,z_norm,60,1.0,stochastic__60,0.9475,EXACT MATCH,YES
+PB7_T5,PB7,z_norm,120,0.9664,z_norm__60,0.9419,EXACT MATCH,YES
+PB7_T6,PB7,z_norm,120,1.0,stochastic__120,0.949,EXACT MATCH,YES
+PB7_T7,PB7,z_norm,300,1.0,stochastic__300,0.9499,EXACT MATCH,YES
+PB7_T8,PB7,z_norm,600,1.0,stochastic__600,0.9497,EXACT MATCH,YES
+PB7_T9,PB7,z_norm,1200,0.9677,z_norm__600,0.9463,EXACT MATCH,YES
+PB7_T10,PB7,z_norm,1800,0.9846,z_norm__1200,0.9787,EXACT MATCH,YES
+PB7_T11,PB7,z_norm,1800,1.0,stochastic__1800,0.9493,EXACT MATCH,YES
+PB7_T12,PB7,z_norm,3600,1.0,stochastic__3600,0.9461,EXACT MATCH,YES
+PB8_T1,PB8,z_norm,5,0.9319,stochastic__5,0.8879,STRONG MATCH,YES
+PB8_T2,PB8,z_norm,10,0.9469,stochastic__10,0.9201,STRONG MATCH,YES
+PB8_T3,PB8,z_norm,30,0.9555,stochastic__30,0.9425,EXACT MATCH,YES
+PB8_T4,PB8,z_norm,60,0.958,stochastic__60,0.9485,EXACT MATCH,YES
+PB8_T5,PB8,stochastic,60,0.9294,z_norm__120,0.9266,STRONG MATCH,YES
+PB8_T6,PB8,z_norm,120,0.9597,stochastic__120,0.9522,EXACT MATCH,YES
+PB8_T7,PB8,z_norm,300,0.9613,stochastic__300,0.9555,EXACT MATCH,YES
+PB8_T8,PB8,z_norm,600,0.9624,stochastic__600,0.9552,EXACT MATCH,YES
+PB8_T9,PB8,stochastic,600,0.9368,z_norm__1200,0.9334,STRONG MATCH,YES
+PB8_T10,PB8,stochastic,1200,0.9558,z_norm__1200,0.9523,EXACT MATCH,YES
+PB8_T11,PB8,z_norm,1800,0.9624,stochastic__1800,0.9557,EXACT MATCH,YES
+PB8_T12,PB8,z_norm,3600,0.96,stochastic__3600,0.9519,EXACT MATCH,YES
+PB9_T1,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T2,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T3,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T4,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T5,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T6,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T7,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T8,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T9,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T10,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T11,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB9_T12,PB9,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB10_T1,PB10,range_high,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB10_T2,PB10,range_high,10,1.0,sma__10,0.9999,EXACT MATCH,YES
+PB10_T3,PB10,range_high,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+PB10_T4,PB10,range_high,60,1.0,range_high__30,0.9997,EXACT MATCH,YES
+PB10_T5,PB10,range_high,120,0.9998,range_high__60,0.9998,EXACT MATCH,YES
+PB10_T6,PB10,range_high,120,1.0,range_high__60,0.9995,EXACT MATCH,YES
+PB10_T7,PB10,range_high,300,1.0,range_high__120,0.9986,EXACT MATCH,YES
+PB10_T8,PB10,range_high,600,1.0,range_high__300,0.9978,EXACT MATCH,YES
+PB10_T9,PB10,range_high,1200,0.9986,range_high__600,0.9983,EXACT MATCH,YES
+PB10_T10,PB10,range_high,1800,0.9989,range_high__1200,0.9987,EXACT MATCH,YES
+PB10_T11,PB10,range_high,1800,1.0,range_high__1200,0.9969,EXACT MATCH,YES
+PB10_T12,PB10,range_high,3600,1.0,range_high__1800,0.9877,EXACT MATCH,YES
+PB11_T1,PB11,range_low,5,1.0,sma__5,1.0,EXACT MATCH,YES
+PB11_T2,PB11,range_low,10,1.0,sma__10,0.9999,EXACT MATCH,YES
+PB11_T3,PB11,range_low,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+PB11_T4,PB11,range_low,60,1.0,range_low__30,0.9997,EXACT MATCH,YES
+PB11_T5,PB11,range_low,120,0.9998,range_low__60,0.9998,EXACT MATCH,YES
+PB11_T6,PB11,range_low,120,1.0,range_low__60,0.9995,EXACT MATCH,YES
+PB11_T7,PB11,range_low,300,1.0,range_low__120,0.9983,EXACT MATCH,YES
+PB11_T8,PB11,range_low,600,1.0,range_low__300,0.9975,EXACT MATCH,YES
+PB11_T9,PB11,range_low,1200,0.9982,range_low__600,0.9979,EXACT MATCH,YES
+PB11_T10,PB11,range_low,1800,0.9985,range_low__1200,0.9984,EXACT MATCH,YES
+PB11_T11,PB11,range_low,1800,1.0,range_low__1200,0.9957,EXACT MATCH,YES
+PB11_T12,PB11,range_low,3600,1.0,range_low__1800,0.985,EXACT MATCH,YES
+PB12_T1,PB12,pct_momentum,5,1.0,logret_avg__5,1.0,EXACT MATCH,YES
+PB12_T2,PB12,pct_momentum,10,1.0,logret_avg__10,1.0,EXACT MATCH,YES
+PB12_T3,PB12,pct_momentum,30,1.0,logret_avg__30,1.0,EXACT MATCH,YES
+PB12_T4,PB12,pct_momentum,60,1.0,logret_avg__60,1.0,EXACT MATCH,YES
+PB12_T5,PB12,sma_pct_dev,120,0.938,sma_dev__120,0.9379,STRONG MATCH,YES
+PB12_T6,PB12,pct_momentum,120,1.0,logret_avg__120,1.0,EXACT MATCH,YES
+PB12_T7,PB12,pct_momentum,300,1.0,logret_avg__300,1.0,EXACT MATCH,YES
+PB12_T8,PB12,pct_momentum,600,1.0,logret_avg__600,1.0,EXACT MATCH,YES
+PB12_T9,PB12,sma_dev,1200,0.935,sma_pct_dev__1200,0.935,STRONG MATCH,YES
+PB12_T10,PB12,sma_dev,1800,0.9191,sma_pct_dev__1800,0.9191,STRONG MATCH,YES
+PB12_T11,PB12,pct_momentum,1800,1.0,logret_avg__1800,1.0,EXACT MATCH,YES
+PB12_T12,PB12,pct_momentum,3600,1.0,logret_avg__3600,1.0,EXACT MATCH,YES
+PB13_T1,PB13,pct_momentum,5,1.0,logret_avg__5,1.0,EXACT MATCH,YES
+PB13_T2,PB13,pct_momentum,10,1.0,logret_avg__10,1.0,EXACT MATCH,YES
+PB13_T3,PB13,logret_avg,30,1.0,pct_momentum__30,1.0,EXACT MATCH,YES
+PB13_T4,PB13,logret_avg,60,1.0,pct_momentum__60,1.0,EXACT MATCH,YES
+PB13_T5,PB13,sma_pct_dev,120,0.938,sma_dev__120,0.938,STRONG MATCH,YES
+PB13_T6,PB13,logret_avg,120,1.0,pct_momentum__120,1.0,EXACT MATCH,YES
+PB13_T7,PB13,logret_avg,300,1.0,pct_momentum__300,1.0,EXACT MATCH,YES
+PB13_T8,PB13,logret_avg,600,1.0,pct_momentum__600,1.0,EXACT MATCH,YES
+PB13_T9,PB13,sma_dev,1200,0.935,sma_pct_dev__1200,0.935,STRONG MATCH,YES
+PB13_T10,PB13,sma_dev,1800,0.9191,sma_pct_dev__1800,0.9191,STRONG MATCH,YES
+PB13_T11,PB13,logret_avg,1800,1.0,pct_momentum__1800,1.0,EXACT MATCH,YES
+PB13_T12,PB13,logret_avg,3600,1.0,pct_momentum__3600,1.0,EXACT MATCH,YES
+PB14_T1,PB14,z_norm,10,0.8361,stochastic__10,0.8091,STRONG MATCH,YES
+PB14_T2,PB14,z_norm,30,0.7935,stochastic__10,0.7732,STRONG MATCH,YES
+PB14_T3,PB14,z_norm,60,0.8502,stochastic__60,0.8215,STRONG MATCH,YES
+PB14_T4,PB14,z_norm,120,0.8561,stochastic__120,0.8268,STRONG MATCH,YES
+PB14_T5,PB14,stochastic,120,0.8498,z_norm__120,0.8348,STRONG MATCH,YES
+PB14_T6,PB14,z_norm,300,0.8477,logret_avg__120,0.8176,STRONG MATCH,YES
+PB14_T7,PB14,z_norm,600,0.8658,stochastic__600,0.8308,STRONG MATCH,YES
+PB14_T8,PB14,z_norm,1200,0.8681,logret_avg__600,0.8379,STRONG MATCH,YES
+PB14_T9,PB14,z_norm,1800,0.8681,stochastic__1200,0.8518,STRONG MATCH,YES
+PB14_T10,PB14,z_norm,3600,0.8575,stochastic__1800,0.8449,STRONG MATCH,YES
+PB14_T11,PB14,logret_avg,1800,0.8688,pct_momentum__1800,0.8686,STRONG MATCH,YES
+PB14_T12,PB14,logret_avg,3600,0.8815,pct_momentum__3600,0.8813,STRONG MATCH,YES
+PB15_T1,PB15,stochastic,5,1.0,z_norm__5,0.9409,EXACT MATCH,YES
+PB15_T2,PB15,stochastic,10,1.0,z_norm__10,0.9435,EXACT MATCH,YES
+PB15_T3,PB15,stochastic,30,1.0,z_norm__30,0.9459,EXACT MATCH,YES
+PB15_T4,PB15,stochastic,60,1.0,z_norm__60,0.9475,EXACT MATCH,YES
+PB15_T5,PB15,stochastic,120,0.952,z_norm__120,0.9321,EXACT MATCH,YES
+PB15_T6,PB15,stochastic,120,1.0,z_norm__120,0.949,EXACT MATCH,YES
+PB15_T7,PB15,stochastic,300,1.0,z_norm__300,0.9499,EXACT MATCH,YES
+PB15_T8,PB15,stochastic,600,1.0,z_norm__600,0.9497,EXACT MATCH,YES
+PB15_T9,PB15,stochastic,1200,0.958,z_norm__1200,0.9355,EXACT MATCH,YES
+PB15_T10,PB15,stochastic,1800,0.9774,stochastic__1200,0.9698,EXACT MATCH,YES
+PB15_T11,PB15,stochastic,1800,1.0,z_norm__1800,0.9493,EXACT MATCH,YES
+PB15_T12,PB15,stochastic,3600,1.0,z_norm__3600,0.9461,EXACT MATCH,YES
+PB16_T1,PB16,stochastic,10,0.7867,z_norm__10,0.7798,STRONG MATCH,YES
+PB16_T2,PB16,stochastic,10,0.8688,z_norm__10,0.8026,STRONG MATCH,YES
+PB16_T3,PB16,stochastic,30,0.9517,z_norm__30,0.8952,EXACT MATCH,YES
+PB16_T4,PB16,stochastic,60,0.9748,z_norm__60,0.9218,EXACT MATCH,YES
+PB16_T5,PB16,stochastic,120,0.9439,z_norm__120,0.9241,STRONG MATCH,YES
+PB16_T6,PB16,stochastic,120,0.9868,z_norm__120,0.9362,EXACT MATCH,YES
+PB16_T7,PB16,stochastic,300,0.9946,z_norm__300,0.9449,EXACT MATCH,YES
+PB16_T8,PB16,stochastic,600,0.9972,z_norm__600,0.9473,EXACT MATCH,YES
+PB16_T9,PB16,stochastic,1200,0.957,z_norm__1200,0.9347,EXACT MATCH,YES
+PB16_T10,PB16,stochastic,1800,0.9767,stochastic__1200,0.9681,EXACT MATCH,YES
+PB16_T11,PB16,stochastic,1800,0.999,z_norm__1800,0.9485,EXACT MATCH,YES
+PB16_T12,PB16,stochastic,3600,0.9995,z_norm__3600,0.9457,EXACT MATCH,YES
+PB17_T1,PB17,stochastic,5,1.0,z_norm__5,0.9409,EXACT MATCH,YES
+PB17_T2,PB17,stochastic,10,1.0,z_norm__10,0.9435,EXACT MATCH,YES
+PB17_T3,PB17,stochastic,30,1.0,z_norm__30,0.9459,EXACT MATCH,YES
+PB17_T4,PB17,stochastic,60,1.0,z_norm__60,0.9475,EXACT MATCH,YES
+PB17_T5,PB17,stochastic,120,0.952,z_norm__120,0.9321,EXACT MATCH,YES
+PB17_T6,PB17,stochastic,120,1.0,z_norm__120,0.949,EXACT MATCH,YES
+PB17_T7,PB17,stochastic,300,1.0,z_norm__300,0.9499,EXACT MATCH,YES
+PB17_T8,PB17,stochastic,600,1.0,z_norm__600,0.9497,EXACT MATCH,YES
+PB17_T9,PB17,stochastic,1200,0.958,z_norm__1200,0.9355,EXACT MATCH,YES
+PB17_T10,PB17,stochastic,1800,0.9774,stochastic__1200,0.9698,EXACT MATCH,YES
+PB17_T11,PB17,stochastic,1800,1.0,z_norm__1800,0.9493,EXACT MATCH,YES
+PB17_T12,PB17,stochastic,3600,1.0,z_norm__3600,0.9461,EXACT MATCH,YES
+PB18_T1,PB18,z_norm,5,0.9949,stochastic__5,0.9258,EXACT MATCH,YES
+PB18_T2,PB18,z_norm,10,0.9934,stochastic__10,0.9222,EXACT MATCH,YES
+PB18_T3,PB18,z_norm,30,0.9954,stochastic__30,0.9272,EXACT MATCH,YES
+PB18_T4,PB18,z_norm,60,0.9962,stochastic__60,0.9307,EXACT MATCH,YES
+PB18_T5,PB18,z_norm,120,0.9606,z_norm__60,0.9399,EXACT MATCH,YES
+PB18_T6,PB18,z_norm,120,0.9966,stochastic__120,0.9335,EXACT MATCH,YES
+PB18_T7,PB18,z_norm,300,0.9971,stochastic__300,0.9358,EXACT MATCH,YES
+PB18_T8,PB18,z_norm,600,0.9974,stochastic__600,0.9368,EXACT MATCH,YES
+PB18_T9,PB18,z_norm,1200,0.9627,z_norm__600,0.9447,EXACT MATCH,YES
+PB18_T10,PB18,z_norm,1800,0.9807,z_norm__1200,0.9776,EXACT MATCH,YES
+PB18_T11,PB18,z_norm,1800,0.9976,z_norm__1200,0.9435,EXACT MATCH,YES
+PB18_T12,PB18,z_norm,3600,0.9968,stochastic__3600,0.9305,EXACT MATCH,YES
+VB1_T1,VB1,price_std,5,0.2296,pct_from_high__5,0.1395,NO MATCH,NO
+VB1_T2,VB1,price_std,10,0.2769,pct_from_low__10,0.1661,NO MATCH,NO
+VB1_T3,VB1,price_std,30,0.332,price_var__30,0.2026,WEAK,NO
+VB1_T4,VB1,price_std,60,0.3536,pct_from_low__60,0.2119,WEAK,NO
+VB1_T5,VB1,price_std,120,0.2866,price_std__60,0.2829,NO MATCH,NO
+VB1_T6,VB1,price_std,120,0.3675,price_std__60,0.23,WEAK,NO
+VB1_T7,VB1,price_std,300,0.386,pct_from_low__300,0.2413,WEAK,NO
+VB1_T8,VB1,price_std,600,0.4048,price_std__300,0.2757,WEAK,NO
+VB1_T9,VB1,price_std,600,0.3417,price_std__1200,0.3329,WEAK,NO
+VB1_T10,VB1,price_std,1800,0.3902,price_std__1200,0.3807,WEAK,NO
+VB1_T11,VB1,price_std,1800,0.4287,price_std__1200,0.3373,WEAK,NO
+VB1_T12,VB1,price_std,3600,0.4613,price_var__3600,0.3672,WEAK,NO
+VB2_T1,VB2,logret_absavg,5,0.9999,logret_vol__5,0.9555,EXACT MATCH,YES
+VB2_T2,VB2,logret_absavg,10,0.9999,logret_vol__10,0.9666,EXACT MATCH,YES
+VB2_T3,VB2,logret_absavg,30,0.9999,logret_vol__30,0.9731,EXACT MATCH,YES
+VB2_T4,VB2,logret_absavg,60,0.9999,logret_vol__60,0.9751,EXACT MATCH,YES
+VB2_T5,VB2,logret_absavg,120,0.9911,logret_absavg__60,0.9841,EXACT MATCH,YES
+VB2_T6,VB2,logret_absavg,120,0.9999,logret_vol__120,0.9779,EXACT MATCH,YES
+VB2_T7,VB2,logret_absavg,300,0.9999,logret_vol__300,0.9834,EXACT MATCH,YES
+VB2_T8,VB2,logret_absavg,600,0.9999,logret_vol__600,0.9849,EXACT MATCH,YES
+VB2_T9,VB2,logret_absavg,1200,0.995,logret_absavg__600,0.9911,EXACT MATCH,YES
+VB2_T10,VB2,logret_absavg,1800,0.9975,logret_absavg__1200,0.9965,EXACT MATCH,YES
+VB2_T11,VB2,logret_absavg,1800,0.9999,logret_absavg__1200,0.9912,EXACT MATCH,YES
+VB2_T12,VB2,logret_absavg,3600,0.9999,logret_vol__3600,0.9889,EXACT MATCH,YES
+VB3_T1,VB3,logret_vol,5,1.0,logret_absavg__5,0.9554,EXACT MATCH,YES
+VB3_T2,VB3,logret_vol,10,1.0,logret_absavg__10,0.9665,EXACT MATCH,YES
+VB3_T3,VB3,logret_vol,30,1.0,logret_absavg__30,0.9729,EXACT MATCH,YES
+VB3_T4,VB3,logret_vol,60,1.0,logret_absavg__60,0.9749,EXACT MATCH,YES
+VB3_T5,VB3,logret_vol,120,0.9843,logret_vol__60,0.9742,EXACT MATCH,YES
+VB3_T6,VB3,logret_vol,120,1.0,logret_absavg__120,0.9778,EXACT MATCH,YES
+VB3_T7,VB3,logret_vol,300,1.0,logret_absavg__300,0.9832,EXACT MATCH,YES
+VB3_T8,VB3,logret_vol,600,1.0,logret_downvol__600,0.9877,EXACT MATCH,YES
+VB3_T9,VB3,logret_vol,1200,0.9922,logret_vol__600,0.9871,EXACT MATCH,YES
+VB3_T10,VB3,logret_vol,1800,0.9958,logret_vol__1200,0.9942,EXACT MATCH,YES
+VB3_T11,VB3,logret_vol,1800,1.0,logret_downvol__1800,0.9935,EXACT MATCH,YES
+VB3_T12,VB3,logret_vol,3600,1.0,logret_downvol__3600,0.9954,EXACT MATCH,YES
+VB4_T1,VB4,logret_vol,5,1.0,logret_absavg__5,0.9554,EXACT MATCH,YES
+VB4_T2,VB4,logret_vol,10,1.0,logret_absavg__10,0.9665,EXACT MATCH,YES
+VB4_T3,VB4,logret_vol,30,1.0,logret_absavg__30,0.973,EXACT MATCH,YES
+VB4_T4,VB4,logret_vol,60,1.0,logret_absavg__60,0.9749,EXACT MATCH,YES
+VB4_T5,VB4,logret_vol,120,0.9843,logret_vol__60,0.9742,EXACT MATCH,YES
+VB4_T6,VB4,logret_vol,120,1.0,logret_absavg__120,0.9778,EXACT MATCH,YES
+VB4_T7,VB4,logret_vol,300,1.0,logret_absavg__300,0.9832,EXACT MATCH,YES
+VB4_T8,VB4,logret_vol,600,1.0,logret_downvol__600,0.9877,EXACT MATCH,YES
+VB4_T9,VB4,logret_vol,1200,0.9922,logret_vol__600,0.9871,EXACT MATCH,YES
+VB4_T10,VB4,logret_vol,1800,0.9958,logret_vol__1200,0.9942,EXACT MATCH,YES
+VB4_T11,VB4,logret_vol,1800,1.0,logret_downvol__1800,0.9935,EXACT MATCH,YES
+VB4_T12,VB4,logret_vol,3600,1.0,logret_downvol__3600,0.9954,EXACT MATCH,YES
+VB5_T1,VB5,price_std,5,0.9913,logret_absavg__5,0.8881,EXACT MATCH,YES
+VB5_T2,VB5,price_std,10,0.9831,logret_absavg__10,0.8853,EXACT MATCH,YES
+VB5_T3,VB5,price_std,30,0.975,logret_absavg__30,0.8744,EXACT MATCH,YES
+VB5_T4,VB5,price_std,60,0.9729,logret_absavg__60,0.8705,EXACT MATCH,YES
+VB5_T5,VB5,price_std,120,0.9385,price_std__60,0.8983,STRONG MATCH,YES
+VB5_T6,VB5,price_std,120,0.9719,logret_absavg__60,0.8683,EXACT MATCH,YES
+VB5_T7,VB5,price_std,300,0.9722,logret_absavg__120,0.8702,EXACT MATCH,YES
+VB5_T8,VB5,price_std,600,0.9733,logret_absavg__300,0.8716,EXACT MATCH,YES
+VB5_T9,VB5,price_std,1200,0.9385,price_std__600,0.8965,STRONG MATCH,YES
+VB5_T10,VB5,price_std,1800,0.9578,price_std__1200,0.9285,EXACT MATCH,YES
+VB5_T11,VB5,price_std,1800,0.9692,price_std__1200,0.886,EXACT MATCH,YES
+VB5_T12,VB5,price_std,3600,0.9669,price_var__3600,0.8899,EXACT MATCH,YES
+VB6_T1,VB6,logret_absavg,10,0.0234,price_std__10,0.0213,NO MATCH,NO
+VB6_T2,VB6,price_std,5,0.0213,pct_from_high__5,0.0178,NO MATCH,NO
+VB6_T3,VB6,price_std,5,0.2048,logret_vol__5,0.1865,NO MATCH,NO
+VB6_T4,VB6,price_std,5,0.2362,logret_absavg__5,0.2208,NO MATCH,NO
+VB6_T5,VB6,price_std,5,0.2486,logret_absavg__5,0.2357,NO MATCH,NO
+VB6_T6,VB6,price_std,5,0.2565,logret_absavg__5,0.2452,NO MATCH,NO
+VB6_T7,VB6,price_std,5,0.2753,logret_absavg__5,0.2675,NO MATCH,NO
+VB6_T8,VB6,price_std,5,0.2871,logret_absavg__5,0.2816,NO MATCH,NO
+VB6_T9,VB6,price_std,5,0.2948,logret_absavg__5,0.291,NO MATCH,NO
+VB6_T10,VB6,price_std,5,0.3048,logret_absavg__5,0.3031,WEAK,NO
+VB6_T11,VB6,price_std,5,0.3084,logret_absavg__5,0.3076,WEAK,NO
+VB6_T12,VB6,logret_absavg,5,0.3281,price_std__5,0.3254,WEAK,NO
+V1_T1,V1,price_std,30,0.0141,price_std__60,0.0126,NO MATCH,NO
+V1_T2,V1,price_std,5,0.0181,pct_from_high__5,0.0147,NO MATCH,NO
+V1_T3,V1,price_std,5,0.0297,pct_from_high__5,0.0221,NO MATCH,NO
+V1_T4,V1,price_std,5,0.0363,pct_from_high__5,0.0273,NO MATCH,NO
+V1_T5,V1,price_std,5,0.04,pct_from_high__5,0.0297,NO MATCH,NO
+V1_T6,V1,price_std,5,0.0427,pct_from_high__5,0.0314,NO MATCH,NO
+V1_T7,V1,price_std,5,0.0516,logret_absavg__5,0.0404,NO MATCH,NO
+V1_T8,V1,price_std,5,0.0561,logret_absavg__5,0.046,NO MATCH,NO
+V1_T9,V1,price_std,5,0.0614,logret_absavg__5,0.0516,NO MATCH,NO
+V1_T10,V1,price_std,5,0.0673,logret_absavg__5,0.0582,NO MATCH,NO
+V1_T11,V1,price_std,5,0.0693,logret_absavg__5,0.0605,NO MATCH,NO
+V1_T12,V1,price_std,5,0.077,logret_absavg__5,0.0694,NO MATCH,NO
+V2_T1,V2,logret_absavg,30,0.2294,logret_absavg__60,0.2264,NO MATCH,NO
+V2_T2,V2,logret_absavg,60,0.2237,logret_absavg__30,0.2234,NO MATCH,NO
+V2_T3,V2,logret_absavg,120,0.1883,logret_absavg__60,0.1872,NO MATCH,NO
+V2_T4,V2,logret_absavg,120,0.1741,logret_absavg__300,0.1694,NO MATCH,NO
+V2_T5,V2,logret_absavg,120,0.1719,logret_absavg__300,0.1689,NO MATCH,NO
+V2_T6,V2,logret_absavg,120,0.1731,logret_absavg__300,0.1722,NO MATCH,NO
+V2_T7,V2,logret_absavg,300,0.2024,logret_absavg__600,0.1988,NO MATCH,NO
+V2_T8,V2,logret_absavg,600,0.2389,logret_absavg__300,0.234,NO MATCH,NO
+V2_T9,V2,logret_absavg,1200,0.2616,logret_absavg__600,0.2605,NO MATCH,NO
+V2_T10,V2,logret_absavg,1800,0.2997,logret_absavg__1200,0.2983,NO MATCH,NO
+V2_T11,V2,logret_absavg,1800,0.3136,logret_absavg__1200,0.3091,WEAK,NO
+V2_T12,V2,logret_absavg,3600,0.3603,logret_absavg__1800,0.3495,WEAK,NO
+V3_T1,V3,price_std,5,0.0384,pct_from_high__5,0.0354,NO MATCH,NO
+V3_T2,V3,price_std,5,0.0864,pct_from_high__5,0.0676,NO MATCH,NO
+V3_T3,V3,price_std,5,0.1209,pct_from_high__5,0.0897,NO MATCH,NO
+V3_T4,V3,price_std,5,0.131,logret_absavg__5,0.0991,NO MATCH,NO
+V3_T5,V3,price_std,5,0.1337,logret_absavg__5,0.1032,NO MATCH,NO
+V3_T6,V3,price_std,5,0.1347,logret_absavg__5,0.1054,NO MATCH,NO
+V3_T7,V3,price_std,5,0.1356,logret_absavg__5,0.11,NO MATCH,NO
+V3_T8,V3,price_std,5,0.1305,logret_absavg__5,0.1093,NO MATCH,NO
+V3_T9,V3,price_std,5,0.1296,logret_absavg__5,0.1107,NO MATCH,NO
+V3_T10,V3,price_std,5,0.127,logret_absavg__5,0.111,NO MATCH,NO
+V3_T11,V3,price_std,5,0.1258,logret_absavg__5,0.111,NO MATCH,NO
+V3_T12,V3,price_std,5,0.1224,logret_absavg__5,0.1111,NO MATCH,NO
+V4_T1,V4,price_std,5,0.0397,pct_from_high__5,0.0367,NO MATCH,NO
+V4_T2,V4,price_std,5,0.0846,pct_from_high__5,0.0662,NO MATCH,NO
+V4_T3,V4,price_std,5,0.1088,pct_from_high__5,0.0801,NO MATCH,NO
+V4_T4,V4,price_std,5,0.1073,logret_absavg__5,0.0803,NO MATCH,NO
+V4_T5,V4,price_std,5,0.1033,logret_absavg__5,0.079,NO MATCH,NO
+V4_T6,V4,price_std,5,0.0993,logret_absavg__5,0.0772,NO MATCH,NO
+V4_T7,V4,price_std,5,0.0886,logret_absavg__5,0.0717,NO MATCH,NO
+V4_T8,V4,price_std,5,0.081,logret_absavg__5,0.0676,NO MATCH,NO
+V4_T9,V4,price_std,5,0.0803,logret_absavg__5,0.0683,NO MATCH,NO
+V4_T10,V4,price_std,5,0.0806,logret_absavg__5,0.0702,NO MATCH,NO
+V4_T11,V4,price_std,5,0.0808,logret_absavg__5,0.071,NO MATCH,NO
+V4_T12,V4,price_std,5,0.0839,logret_absavg__5,0.0758,NO MATCH,NO
+V5,V5,price_std,5,0.1249,logret_absavg__5,0.1246,NO MATCH,NO
+V8_T1_T2,V8,price_std,5,0.14,logret_absavg__5,0.1356,NO MATCH,NO
+V8_T1_T3,V8,price_std,5,0.1768,logret_absavg__5,0.1746,NO MATCH,NO
+V8_T1_T4,V8,price_std,5,0.1749,logret_absavg__5,0.1745,NO MATCH,NO
+V8_T1_T5,V8,logret_absavg,5,0.1704,price_std__5,0.1695,NO MATCH,NO
+V8_T1_T6,V8,logret_absavg,5,0.1662,price_std__5,0.1645,NO MATCH,NO
+V8_T1_T7,V8,logret_absavg,5,0.1545,price_std__5,0.1508,NO MATCH,NO
+V8_T1_T8,V8,logret_absavg,5,0.1459,price_std__5,0.1404,NO MATCH,NO
+V8_T1_T9,V8,logret_absavg,5,0.1473,price_std__5,0.1406,NO MATCH,NO
+V8_T1_T10,V8,logret_absavg,5,0.1501,logret_vol__5,0.1423,NO MATCH,NO
+V8_T1_T11,V8,logret_absavg,5,0.1513,logret_vol__5,0.1433,NO MATCH,NO
+V8_T1_T12,V8,logret_absavg,5,0.159,logret_vol__5,0.1495,NO MATCH,NO
+V8_T2_T3,V8,price_std,10,0.1603,logret_vol__10,0.1304,NO MATCH,NO
+V8_T2_T4,V8,price_std,10,0.1729,logret_vol__10,0.1474,NO MATCH,NO
+V8_T2_T5,V8,price_std,10,0.1726,logret_vol__10,0.1509,NO MATCH,NO
+V8_T2_T6,V8,price_std,10,0.1711,logret_vol__10,0.1516,NO MATCH,NO
+V8_T2_T7,V8,price_std,10,0.1651,logret_vol__10,0.1517,NO MATCH,NO
+V8_T2_T8,V8,price_std,10,0.1579,logret_absavg__10,0.1503,NO MATCH,NO
+V8_T2_T9,V8,price_std,10,0.1602,logret_absavg__10,0.1558,NO MATCH,NO
+V8_T2_T10,V8,price_std,10,0.1638,logret_absavg__10,0.1634,NO MATCH,NO
+V8_T2_T11,V8,logret_absavg,10,0.1662,price_std__10,0.165,NO MATCH,NO
+V8_T2_T12,V8,logret_absavg,10,0.1783,price_std__10,0.172,NO MATCH,NO
+V8_T3_T4,V8,price_std,30,0.1453,price_var__30,0.1039,NO MATCH,NO
+V8_T3_T5,V8,price_std,30,0.1626,price_std__60,0.1272,NO MATCH,NO
+V8_T3_T6,V8,price_std,30,0.1706,price_std__60,0.1458,NO MATCH,NO
+V8_T3_T7,V8,price_std,30,0.1835,price_std__60,0.1763,NO MATCH,NO
+V8_T3_T8,V8,price_std,30,0.1856,price_std__60,0.1848,NO MATCH,NO
+V8_T3_T9,V8,price_std,60,0.1932,price_std__30,0.1923,NO MATCH,NO
+V8_T3_T10,V8,price_std,60,0.2008,price_std__30,0.199,NO MATCH,NO
+V8_T3_T11,V8,price_std,60,0.2031,price_std__30,0.201,NO MATCH,NO
+V8_T3_T12,V8,price_std,60,0.2109,price_std__30,0.2087,NO MATCH,NO
+V8_T4_T5,V8,price_std,60,0.1263,price_std__30,0.0906,NO MATCH,NO
+V8_T4_T6,V8,price_std,60,0.1501,price_std__30,0.1114,NO MATCH,NO
+V8_T4_T7,V8,price_std,60,0.1872,price_std__120,0.1728,NO MATCH,NO
+V8_T4_T8,V8,price_std,60,0.1991,price_std__120,0.1976,NO MATCH,NO
+V8_T4_T9,V8,price_std,120,0.2125,price_std__60,0.2103,NO MATCH,NO
+V8_T4_T10,V8,price_std,120,0.2238,price_std__60,0.2198,NO MATCH,NO
+V8_T4_T11,V8,price_std,120,0.2269,price_std__60,0.2223,NO MATCH,NO
+V8_T4_T12,V8,price_std,120,0.2357,price_std__60,0.2301,NO MATCH,NO
+V8_T5_T6,V8,price_std,120,0.098,price_std__60,0.0957,NO MATCH,NO
+V8_T5_T7,V8,price_std,120,0.1901,price_std__60,0.1546,NO MATCH,NO
+V8_T5_T8,V8,price_std,120,0.2156,price_std__60,0.1744,NO MATCH,NO
+V8_T5_T9,V8,price_std,120,0.2315,price_std__60,0.1894,NO MATCH,NO
+V8_T5_T10,V8,price_std,120,0.2428,price_std__300,0.205,NO MATCH,NO
+V8_T5_T11,V8,price_std,120,0.2457,price_std__300,0.2117,NO MATCH,NO
+V8_T5_T12,V8,price_std,120,0.2539,price_std__300,0.2328,NO MATCH,NO
+V8_T6_T7,V8,price_std,120,0.1738,price_std__60,0.1318,NO MATCH,NO
+V8_T6_T8,V8,price_std,120,0.2042,price_std__300,0.1724,NO MATCH,NO
+V8_T6_T9,V8,price_std,120,0.2225,price_std__300,0.2062,NO MATCH,NO
+V8_T6_T10,V8,price_std,120,0.2355,price_std__300,0.2323,NO MATCH,NO
+V8_T6_T11,V8,price_std,120,0.2388,price_std__300,0.2388,NO MATCH,NO
+V8_T6_T12,V8,price_std,300,0.2584,price_std__120,0.2486,NO MATCH,NO
+V8_T7_T8,V8,price_std,300,0.1901,price_std__600,0.1344,NO MATCH,NO
+V8_T7_T9,V8,price_std,300,0.2282,price_std__600,0.2037,NO MATCH,NO
+V8_T7_T10,V8,price_std,600,0.2584,price_std__300,0.2552,NO MATCH,NO
+V8_T7_T11,V8,price_std,600,0.2708,price_std__300,0.2615,NO MATCH,NO
+V8_T7_T12,V8,price_std,600,0.2997,price_std__300,0.2805,NO MATCH,NO
+V8_T8_T9,V8,price_std,600,0.188,price_std__300,0.1505,NO MATCH,NO
+V8_T8_T10,V8,price_std,600,0.2519,price_std__1200,0.2076,NO MATCH,NO
+V8_T8_T11,V8,price_std,600,0.266,price_std__1200,0.2386,NO MATCH,NO
+V8_T8_T12,V8,price_std,600,0.2983,price_std__1200,0.296,NO MATCH,NO
+V8_T9_T10,V8,price_std,1200,0.2269,price_std__600,0.1943,NO MATCH,NO
+V8_T9_T11,V8,price_std,1200,0.2601,price_var__1200,0.2142,NO MATCH,NO
+V8_T9_T12,V8,price_std,1200,0.3181,price_std__1800,0.2788,WEAK,NO
+V8_T10_T11,V8,price_std,1800,0.1708,price_std__1200,0.1676,NO MATCH,NO
+V8_T10_T12,V8,price_std,1800,0.2973,price_var__1800,0.264,NO MATCH,NO
+V8_T11_T12,V8,price_std,1800,0.2705,price_var__1800,0.2402,NO MATCH,NO
+PV1_T1,PV1,price_std,5,0.2005,price_std__10,0.1559,NO MATCH,NO
+PV1_T2,PV1,price_std,10,0.2491,price_std__5,0.1669,NO MATCH,NO
+PV1_T3,PV1,price_std,30,0.3019,price_var__30,0.2044,WEAK,NO
+PV1_T4,PV1,price_std,60,0.3366,price_std__30,0.2358,WEAK,NO
+PV1_T5,PV1,price_std,120,0.3388,price_std__60,0.2858,WEAK,NO
+PV1_T6,PV1,price_std,120,0.3666,price_std__60,0.2601,WEAK,NO
+PV1_T7,PV1,price_std,300,0.4009,price_std__120,0.277,WEAK,NO
+PV1_T8,PV1,price_std,600,0.4335,price_std__300,0.3228,WEAK,NO
+PV1_T9,PV1,price_std,1200,0.4253,price_std__600,0.3585,WEAK,NO
+PV1_T10,PV1,price_std,1800,0.4609,price_std__1200,0.3986,WEAK,NO
+PV1_T11,PV1,price_std,1800,0.4688,price_std__1200,0.3747,WEAK,NO
+PV1_T12,PV1,price_std,3600,0.5222,price_var__3600,0.4425,WEAK,NO
+PV2,PV2,pct_from_high,3600,0.2201,logret_avg__3600,0.2124,NO MATCH,NO
+PV3_B1_T1,PV3,range_high,3600,0.4374,range_high__1800,0.4314,WEAK,NO
+PV3_B1_T2,PV3,range_high,3600,0.3738,range_high__1800,0.3689,WEAK,NO
+PV3_B1_T3,PV3,range_high,3600,0.2849,range_high__1800,0.2813,NO MATCH,NO
+PV3_B1_T4,PV3,range_high,3600,0.2326,range_high__1800,0.2296,NO MATCH,NO
+PV3_B1_T5,PV3,range_high,3600,0.2046,range_high__1800,0.202,NO MATCH,NO
+PV3_B1_T6,PV3,range_high,3600,0.1867,range_high__1800,0.1844,NO MATCH,NO
+PV3_B1_T7,PV3,range_high,3600,0.1447,range_high__1800,0.1431,NO MATCH,NO
+PV3_B1_T8,PV3,range_high,3600,0.1244,range_high__1800,0.1232,NO MATCH,NO
+PV3_B1_T9,PV3,range_high,3600,0.1169,range_high__1800,0.116,NO MATCH,NO
+PV3_B1_T10,PV3,range_high,3600,0.1103,range_high__1800,0.1098,NO MATCH,NO
+PV3_B1_T11,PV3,range_high,3600,0.108,range_high__1800,0.1076,NO MATCH,NO
+PV3_B1_T12,PV3,range_high,3600,0.1067,range_high__1800,0.1066,NO MATCH,NO
+PV3_B2_T1,PV3,range_high,1800,0.4841,range_high__1200,0.484,WEAK,NO
+PV3_B2_T2,PV3,range_high,1800,0.417,range_high__1200,0.417,WEAK,NO
+PV3_B2_T3,PV3,range_high,1200,0.3207,range_high__1800,0.3207,WEAK,NO
+PV3_B2_T4,PV3,range_high,1200,0.2631,range_high__1800,0.2631,NO MATCH,NO
+PV3_B2_T5,PV3,range_high,600,0.2322,range_high__1200,0.2322,NO MATCH,NO
+PV3_B2_T6,PV3,range_high,600,0.212,range_high__1200,0.212,NO MATCH,NO
+PV3_B2_T7,PV3,range_high,300,0.165,range_high__600,0.165,NO MATCH,NO
+PV3_B2_T8,PV3,range_high,300,0.1427,range_high__600,0.1425,NO MATCH,NO
+PV3_B2_T9,PV3,range_high,300,0.1344,range_high__600,0.1343,NO MATCH,NO
+PV3_B2_T10,PV3,range_high,300,0.127,range_high__600,0.1269,NO MATCH,NO
+PV3_B2_T11,PV3,range_high,300,0.1242,range_high__600,0.1242,NO MATCH,NO
+PV3_B2_T12,PV3,range_high,300,0.1228,range_high__600,0.1227,NO MATCH,NO
+PV3_B3_T1,PV3,range_high,120,0.5675,range_high__60,0.5671,WEAK,NO
+PV3_B3_T2,PV3,range_high,120,0.4965,range_high__60,0.4961,WEAK,NO
+PV3_B3_T3,PV3,range_high,120,0.3897,range_high__60,0.3895,WEAK,NO
+PV3_B3_T4,PV3,range_high,120,0.3235,range_high__60,0.3235,WEAK,NO
+PV3_B3_T5,PV3,range_high,60,0.2876,range_high__120,0.2876,NO MATCH,NO
+PV3_B3_T6,PV3,range_high,60,0.2635,range_high__120,0.2635,NO MATCH,NO
+PV3_B3_T7,PV3,range_high,60,0.2069,range_high__120,0.2069,NO MATCH,NO
+PV3_B3_T8,PV3,range_high,120,0.18,range_high__60,0.18,NO MATCH,NO
+PV3_B3_T9,PV3,range_high,120,0.1698,range_high__60,0.1698,NO MATCH,NO
+PV3_B3_T10,PV3,range_high,120,0.1602,range_high__60,0.1602,NO MATCH,NO
+PV3_B3_T11,PV3,range_high,120,0.1566,range_high__60,0.1566,NO MATCH,NO
+PV3_B3_T12,PV3,range_high,60,0.1542,range_high__120,0.1542,NO MATCH,NO
+PV3_B4_T1,PV3,range_high,5,0.6378,exp_ma__5,0.6377,WEAK,NO
+PV3_B4_T2,PV3,range_high,5,0.5709,exp_ma__5,0.5708,WEAK,NO
+PV3_B4_T3,PV3,range_high,5,0.4658,exp_ma__5,0.4657,WEAK,NO
+PV3_B4_T4,PV3,range_high,5,0.3973,exp_ma__5,0.3972,WEAK,NO
+PV3_B4_T5,PV3,range_high,5,0.3592,exp_ma__5,0.3591,WEAK,NO
+PV3_B4_T6,PV3,range_high,5,0.3339,exp_ma__5,0.3338,WEAK,NO
+PV3_B4_T7,PV3,range_high,5,0.2706,exp_ma__5,0.2705,NO MATCH,NO
+PV3_B4_T8,PV3,range_high,5,0.2409,exp_ma__5,0.2408,NO MATCH,NO
+PV3_B4_T9,PV3,range_high,5,0.2291,exp_ma__5,0.229,NO MATCH,NO
+PV3_B4_T10,PV3,range_high,5,0.2181,exp_ma__5,0.218,NO MATCH,NO
+PV3_B4_T11,PV3,range_high,5,0.2139,exp_ma__5,0.2138,NO MATCH,NO
+PV3_B4_T12,PV3,range_high,5,0.208,exp_ma__5,0.2079,NO MATCH,NO
+PV3_B5_T1,PV3,range_low,120,0.5276,range_low__60,0.5275,WEAK,NO
+PV3_B5_T2,PV3,range_low,120,0.4704,range_low__60,0.4702,WEAK,NO
+PV3_B5_T3,PV3,range_low,60,0.3849,range_low__120,0.3849,WEAK,NO
+PV3_B5_T4,PV3,range_low,60,0.3309,range_low__30,0.3309,WEAK,NO
+PV3_B5_T5,PV3,range_low,60,0.3016,range_low__30,0.3015,WEAK,NO
+PV3_B5_T6,PV3,range_low,60,0.2846,range_low__30,0.2846,NO MATCH,NO
+PV3_B5_T7,PV3,range_low,60,0.2381,range_low__30,0.238,NO MATCH,NO
+PV3_B5_T8,PV3,range_low,60,0.2145,range_low__30,0.2144,NO MATCH,NO
+PV3_B5_T9,PV3,range_low,60,0.2054,range_low__30,0.2053,NO MATCH,NO
+PV3_B5_T10,PV3,range_low,60,0.2008,range_low__30,0.2007,NO MATCH,NO
+PV3_B5_T11,PV3,range_low,60,0.1986,range_low__30,0.1985,NO MATCH,NO
+PV3_B5_T12,PV3,sma_pct_dev,3600,0.1969,sma_dev__3600,0.1968,NO MATCH,NO
+PV3_B6_T1,PV3,pct_from_high,3600,0.4629,pct_from_high__1800,0.3891,WEAK,NO
+PV3_B6_T2,PV3,pct_from_high,3600,0.4013,pct_from_high__1800,0.3372,WEAK,NO
+PV3_B6_T3,PV3,pct_from_high,3600,0.3158,pct_from_high__1800,0.2652,WEAK,NO
+PV3_B6_T4,PV3,pct_from_high,3600,0.2648,pct_from_high__1800,0.2225,NO MATCH,NO
+PV3_B6_T5,PV3,pct_from_high,3600,0.2376,pct_from_high__1800,0.1997,NO MATCH,NO
+PV3_B6_T6,PV3,pct_from_high,3600,0.2215,pct_from_high__1800,0.1863,NO MATCH,NO
+PV3_B6_T7,PV3,pct_from_high,3600,0.1806,price_std__5,0.1554,NO MATCH,NO
+PV3_B6_T8,PV3,pct_from_high,3600,0.1601,price_std__5,0.1415,NO MATCH,NO
+PV3_B6_T9,PV3,pct_from_high,3600,0.1531,price_std__5,0.1379,NO MATCH,NO
+PV3_B6_T10,PV3,pct_from_high,3600,0.1508,pct_from_high__1800,0.1385,NO MATCH,NO
+PV3_B6_T11,PV3,pct_from_high,3600,0.15,pct_from_high__1800,0.1402,NO MATCH,NO
+PV3_B6_T12,PV3,pct_from_high,3600,0.1558,pct_from_high__1800,0.1495,NO MATCH,NO
+PV3_B7_T1,PV3,pct_from_high,3600,0.407,logret_absavg__1800,0.3667,WEAK,NO
+PV3_B7_T2,PV3,pct_from_high,3600,0.3477,logret_absavg__3600,0.3127,WEAK,NO
+PV3_B7_T3,PV3,pct_from_high,3600,0.2677,logret_absavg__3600,0.2403,NO MATCH,NO
+PV3_B7_T4,PV3,pct_from_high,3600,0.2215,price_std__5,0.2139,NO MATCH,NO
+PV3_B7_T5,PV3,price_std,5,0.1983,pct_from_high__3600,0.1971,NO MATCH,NO
+PV3_B7_T6,PV3,price_std,5,0.188,pct_from_high__3600,0.1822,NO MATCH,NO
+PV3_B7_T7,PV3,price_std,5,0.1617,logret_absavg__5,0.1565,NO MATCH,NO
+PV3_B7_T8,PV3,price_std,5,0.1456,logret_absavg__5,0.1421,NO MATCH,NO
+PV3_B7_T9,PV3,price_std,5,0.1416,logret_absavg__5,0.1387,NO MATCH,NO
+PV3_B7_T10,PV3,price_std,5,0.1404,logret_absavg__5,0.1384,NO MATCH,NO
+PV3_B7_T11,PV3,price_std,5,0.1394,logret_absavg__5,0.1378,NO MATCH,NO
+PV3_B7_T12,PV3,price_std,5,0.1423,logret_absavg__5,0.142,NO MATCH,NO
+BB1_T1,BB1,sma,5,1.0,exp_ma__5,1.0,EXACT MATCH,YES
+BB1_T2,BB1,sma,10,1.0,exp_ma__10,1.0,EXACT MATCH,YES
+BB1_T3,BB1,sma,30,1.0,exp_ma__30,1.0,EXACT MATCH,YES
+BB1_T4,BB1,sma,60,1.0,exp_ma__60,1.0,EXACT MATCH,YES
+BB1_T5,BB1,sma,60,0.9999,exp_ma__60,0.9999,EXACT MATCH,YES
+BB1_T6,BB1,sma,120,0.9999,exp_ma__120,0.9999,EXACT MATCH,YES
+BB1_T7,BB1,sma,300,0.9999,exp_ma__300,0.9998,EXACT MATCH,YES
+BB1_T8,BB1,sma,600,0.9998,exp_ma__600,0.9997,EXACT MATCH,YES
+BB1_T9,BB1,sma,600,0.9994,exp_ma__600,0.9993,EXACT MATCH,YES
+BB1_T10,BB1,sma,1200,0.9994,exp_ma__1200,0.9993,EXACT MATCH,YES
+BB1_T11,BB1,sma,1800,0.9993,exp_ma__1800,0.9992,EXACT MATCH,YES
+BB1_T12,BB1,sma,3600,0.9986,exp_ma__3600,0.9984,EXACT MATCH,YES
+BB2_T1,BB2,pct_momentum,5,0.7531,logret_avg__5,0.7531,STRONG MATCH,YES
+BB2_T2,BB2,pct_momentum,10,0.6866,logret_avg__10,0.6866,WEAK,NO
+BB2_T3,BB2,logret_avg,30,0.5906,pct_momentum__30,0.5906,WEAK,NO
+BB2_T4,BB2,logret_avg,60,0.5319,pct_momentum__60,0.5319,WEAK,NO
+BB2_T5,BB2,sma_dev,120,0.4904,sma_pct_dev__120,0.4903,WEAK,NO
+BB2_T6,BB2,logret_avg,120,0.4754,pct_momentum__120,0.4754,WEAK,NO
+BB2_T7,BB2,logret_avg,300,0.4031,pct_momentum__300,0.4031,WEAK,NO
+BB2_T8,BB2,logret_avg,600,0.3564,pct_momentum__600,0.3564,WEAK,NO
+BB2_T9,BB2,sma_pct_dev,1200,0.3351,sma_dev__1200,0.335,WEAK,NO
+BB2_T10,BB2,sma_pct_dev,1800,0.311,sma_dev__1800,0.311,WEAK,NO
+BB2_T11,BB2,logret_avg,1800,0.3051,pct_momentum__1800,0.3051,WEAK,NO
+BB2_T12,BB2,pct_momentum,3600,0.283,logret_avg__3600,0.283,NO MATCH,NO
+BB3_T1,BB3,sma_dev,5,0.8977,sma_pct_dev__5,0.8975,STRONG MATCH,YES
+BB3_T2,BB3,sma_dev,10,0.928,sma_pct_dev__10,0.9279,STRONG MATCH,YES
+BB3_T3,BB3,sma_dev,30,0.9565,sma_pct_dev__30,0.9564,EXACT MATCH,YES
+BB3_T4,BB3,sma_dev,60,0.9673,sma_pct_dev__60,0.9672,EXACT MATCH,YES
+BB3_T5,BB3,sma_dev,60,0.939,sma_pct_dev__60,0.9389,STRONG MATCH,YES
+BB3_T6,BB3,sma_dev,120,0.9742,sma_pct_dev__120,0.974,EXACT MATCH,YES
+BB3_T7,BB3,sma_dev,300,0.9795,sma_pct_dev__300,0.9794,EXACT MATCH,YES
+BB3_T8,BB3,sma_dev,600,0.9811,sma_pct_dev__600,0.9811,EXACT MATCH,YES
+BB3_T9,BB3,sma_dev,600,0.9528,sma_pct_dev__600,0.9527,EXACT MATCH,YES
+BB3_T10,BB3,sma_dev,1200,0.975,sma_pct_dev__1200,0.975,EXACT MATCH,YES
+BB3_T11,BB3,sma_dev,1800,0.9825,sma_pct_dev__1800,0.9825,EXACT MATCH,YES
+BB3_T12,BB3,sma_dev,3600,0.984,sma_pct_dev__3600,0.984,EXACT MATCH,YES
+BB4_T1,BB4,sma,5,1.0,exp_ma__5,1.0,EXACT MATCH,YES
+BB4_T2,BB4,sma,10,1.0,exp_ma__10,1.0,EXACT MATCH,YES
+BB4_T3,BB4,sma,30,1.0,sma_median__30,1.0,EXACT MATCH,YES
+BB4_T4,BB4,sma,60,1.0,sma_median__60,1.0,EXACT MATCH,YES
+BB4_T5,BB4,exp_ma,120,0.9999,sma__120,0.9999,EXACT MATCH,YES
+BB4_T6,BB4,sma,120,1.0,sma_median__120,1.0,EXACT MATCH,YES
+BB4_T7,BB4,sma,300,1.0,sma_median__300,0.9999,EXACT MATCH,YES
+BB4_T8,BB4,sma,600,1.0,sma_median__600,0.9998,EXACT MATCH,YES
+BB4_T9,BB4,exp_ma,1200,0.9994,sma__1200,0.9993,EXACT MATCH,YES
+BB4_T10,BB4,sma,1800,0.9996,sma__1200,0.9995,EXACT MATCH,YES
+BB4_T11,BB4,sma,1800,1.0,sma_median__1800,0.9994,EXACT MATCH,YES
+BB4_T12,BB4,sma,3600,1.0,sma_median__3600,0.9987,EXACT MATCH,YES
+BB5_T1,BB5,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB5_T2,BB5,exp_ma,10,1.0,sma__10,1.0,EXACT MATCH,YES
+BB5_T3,BB5,exp_ma,30,1.0,sma__30,1.0,EXACT MATCH,YES
+BB5_T4,BB5,exp_ma,60,1.0,sma__60,1.0,EXACT MATCH,YES
+BB5_T5,BB5,exp_ma,120,1.0,exp_ma__60,1.0,EXACT MATCH,YES
+BB5_T6,BB5,exp_ma,120,1.0,sma__120,0.9999,EXACT MATCH,YES
+BB5_T7,BB5,exp_ma,300,1.0,sma__300,0.9999,EXACT MATCH,YES
+BB5_T8,BB5,exp_ma,600,1.0,sma__600,0.9997,EXACT MATCH,YES
+BB5_T9,BB5,exp_ma,1200,0.9997,exp_ma__600,0.9996,EXACT MATCH,YES
+BB5_T10,BB5,exp_ma,1800,0.9998,exp_ma__1200,0.9998,EXACT MATCH,YES
+BB5_T11,BB5,exp_ma,1800,1.0,exp_ma__1200,0.9992,EXACT MATCH,YES
+BB5_T12,BB5,exp_ma,3600,1.0,sma__3600,0.9984,EXACT MATCH,YES
+BB6_T1,BB6,sma,5,1.0,exp_ma__5,1.0,EXACT MATCH,YES
+BB6_T2,BB6,sma,10,1.0,exp_ma__10,1.0,EXACT MATCH,YES
+BB6_T3,BB6,sma,30,1.0,sma_median__30,1.0,EXACT MATCH,YES
+BB6_T4,BB6,sma,60,1.0,sma_median__60,1.0,EXACT MATCH,YES
+BB6_T5,BB6,exp_ma,120,0.9999,sma__120,0.9999,EXACT MATCH,YES
+BB6_T6,BB6,sma,120,1.0,sma_median__120,1.0,EXACT MATCH,YES
+BB6_T7,BB6,sma,300,1.0,sma_median__300,0.9999,EXACT MATCH,YES
+BB6_T8,BB6,sma,600,1.0,sma_median__600,0.9998,EXACT MATCH,YES
+BB6_T9,BB6,exp_ma,1200,0.9994,sma__1200,0.9993,EXACT MATCH,YES
+BB6_T10,BB6,sma,1800,0.9996,sma__1200,0.9995,EXACT MATCH,YES
+BB6_T11,BB6,sma,1800,1.0,sma_median__1800,0.9994,EXACT MATCH,YES
+BB6_T12,BB6,sma,3600,1.0,sma_median__3600,0.9987,EXACT MATCH,YES
+BB7_T1,BB7,range_high,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB7_T2,BB7,range_high,10,1.0,range_high__5,0.9999,EXACT MATCH,YES
+BB7_T3,BB7,range_high,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+BB7_T4,BB7,range_high,60,0.9999,range_high__30,0.9997,EXACT MATCH,YES
+BB7_T5,BB7,range_high,60,0.9997,range_high__120,0.9997,EXACT MATCH,YES
+BB7_T6,BB7,range_high,120,0.9999,range_high__60,0.9994,EXACT MATCH,YES
+BB7_T7,BB7,range_high,300,0.9997,range_high__120,0.9982,EXACT MATCH,YES
+BB7_T8,BB7,range_high,600,0.9994,range_high__300,0.9972,EXACT MATCH,YES
+BB7_T9,BB7,range_high,600,0.9977,range_high__1200,0.9975,EXACT MATCH,YES
+BB7_T10,BB7,range_high,1200,0.9977,range_high__1800,0.9972,EXACT MATCH,YES
+BB7_T11,BB7,range_high,1800,0.998,range_high__1200,0.9955,EXACT MATCH,YES
+BB7_T12,BB7,range_high,3600,0.9957,range_high__1800,0.9835,EXACT MATCH,YES
+BB8_T1,BB8,range_low,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB8_T2,BB8,range_low,10,1.0,range_low__5,0.9999,EXACT MATCH,YES
+BB8_T3,BB8,range_low,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+BB8_T4,BB8,range_low,60,0.9999,range_low__30,0.9997,EXACT MATCH,YES
+BB8_T5,BB8,range_low,60,0.9997,range_low__120,0.9997,EXACT MATCH,YES
+BB8_T6,BB8,range_low,120,0.9999,range_low__60,0.9994,EXACT MATCH,YES
+BB8_T7,BB8,range_low,300,0.9997,range_low__120,0.9979,EXACT MATCH,YES
+BB8_T8,BB8,range_low,600,0.9993,range_low__300,0.9968,EXACT MATCH,YES
+BB8_T9,BB8,range_low,600,0.9973,range_low__1200,0.9969,EXACT MATCH,YES
+BB8_T10,BB8,range_low,1200,0.9976,range_low__1800,0.9964,EXACT MATCH,YES
+BB8_T11,BB8,range_low,1800,0.9979,range_low__1200,0.9949,EXACT MATCH,YES
+BB8_T12,BB8,range_low,3600,0.9959,range_low__1800,0.9819,EXACT MATCH,YES
+BB9_T1,BB9,price_std,5,1.0,logret_absavg__5,0.872,EXACT MATCH,YES
+BB9_T2,BB9,price_std,10,1.0,logret_absavg__10,0.8512,EXACT MATCH,YES
+BB9_T3,BB9,price_std,30,1.0,price_var__30,0.856,EXACT MATCH,YES
+BB9_T4,BB9,price_std,60,1.0,price_var__60,0.8267,EXACT MATCH,YES
+BB9_T5,BB9,price_std,120,0.9454,price_std__60,0.9095,STRONG MATCH,YES
+BB9_T6,BB9,price_std,120,1.0,price_std__60,0.8256,EXACT MATCH,YES
+BB9_T7,BB9,price_std,300,1.0,price_std__600,0.8307,EXACT MATCH,YES
+BB9_T8,BB9,price_std,600,1.0,price_var__600,0.8565,EXACT MATCH,YES
+BB9_T9,BB9,price_std,1200,0.938,price_std__600,0.905,STRONG MATCH,YES
+BB9_T10,BB9,price_std,1800,0.9692,price_std__1200,0.9579,EXACT MATCH,YES
+BB9_T11,BB9,price_std,1800,1.0,price_var__1800,0.8961,EXACT MATCH,YES
+BB9_T12,BB9,price_std,3600,1.0,price_var__3600,0.935,EXACT MATCH,YES
+BB10_T1,BB10,z_norm,5,1.0,stochastic__5,0.9409,EXACT MATCH,YES
+BB10_T2,BB10,z_norm,10,1.0,stochastic__10,0.9435,EXACT MATCH,YES
+BB10_T3,BB10,z_norm,30,1.0,stochastic__30,0.9459,EXACT MATCH,YES
+BB10_T4,BB10,z_norm,60,1.0,stochastic__60,0.9475,EXACT MATCH,YES
+BB10_T5,BB10,z_norm,120,0.9664,z_norm__60,0.9419,EXACT MATCH,YES
+BB10_T6,BB10,z_norm,120,1.0,stochastic__120,0.949,EXACT MATCH,YES
+BB10_T7,BB10,z_norm,300,1.0,stochastic__300,0.9499,EXACT MATCH,YES
+BB10_T8,BB10,z_norm,600,1.0,stochastic__600,0.9497,EXACT MATCH,YES
+BB10_T9,BB10,z_norm,1200,0.9677,z_norm__600,0.9463,EXACT MATCH,YES
+BB10_T10,BB10,z_norm,1800,0.9846,z_norm__1200,0.9787,EXACT MATCH,YES
+BB10_T11,BB10,z_norm,1800,1.0,stochastic__1800,0.9493,EXACT MATCH,YES
+BB10_T12,BB10,z_norm,3600,1.0,stochastic__3600,0.9461,EXACT MATCH,YES
+BB11_T1,BB11,range_high,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB11_T2,BB11,range_high,10,1.0,range_high__5,1.0,EXACT MATCH,YES
+BB11_T3,BB11,range_high,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+BB11_T4,BB11,range_high,60,1.0,range_high__30,0.9998,EXACT MATCH,YES
+BB11_T5,BB11,range_high,120,0.9998,range_high__60,0.9998,EXACT MATCH,YES
+BB11_T6,BB11,range_high,120,1.0,range_high__60,0.9996,EXACT MATCH,YES
+BB11_T7,BB11,range_high,300,1.0,range_high__120,0.9986,EXACT MATCH,YES
+BB11_T8,BB11,range_high,600,1.0,range_high__300,0.9979,EXACT MATCH,YES
+BB11_T9,BB11,range_high,1200,0.9986,range_high__600,0.9983,EXACT MATCH,YES
+BB11_T10,BB11,range_high,1800,0.9989,range_high__1200,0.9987,EXACT MATCH,YES
+BB11_T11,BB11,range_high,1800,1.0,range_high__1200,0.9969,EXACT MATCH,YES
+BB11_T12,BB11,range_high,3600,1.0,range_high__1800,0.9877,EXACT MATCH,YES
+BB12_T1,BB12,range_low,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB12_T2,BB12,range_low,10,1.0,range_low__5,1.0,EXACT MATCH,YES
+BB12_T3,BB12,range_low,30,1.0,sma__30,0.9998,EXACT MATCH,YES
+BB12_T4,BB12,range_low,60,1.0,range_low__30,0.9997,EXACT MATCH,YES
+BB12_T5,BB12,range_low,120,0.9998,range_low__60,0.9998,EXACT MATCH,YES
+BB12_T6,BB12,range_low,120,1.0,range_low__60,0.9995,EXACT MATCH,YES
+BB12_T7,BB12,range_low,300,1.0,range_low__120,0.9983,EXACT MATCH,YES
+BB12_T8,BB12,range_low,600,1.0,range_low__300,0.9975,EXACT MATCH,YES
+BB12_T9,BB12,range_low,1200,0.9982,range_low__600,0.998,EXACT MATCH,YES
+BB12_T10,BB12,range_low,1800,0.9985,range_low__1200,0.9984,EXACT MATCH,YES
+BB12_T11,BB12,range_low,1800,1.0,range_low__1200,0.9958,EXACT MATCH,YES
+BB12_T12,BB12,range_low,3600,1.0,range_low__1800,0.985,EXACT MATCH,YES
+BB13_T1,BB13,exp_ma,5,1.0,sma__5,1.0,EXACT MATCH,YES
+BB13_T2,BB13,exp_ma,10,1.0,sma__10,1.0,EXACT MATCH,YES
+BB13_T3,BB13,exp_ma,30,1.0,sma__30,1.0,EXACT MATCH,YES
+BB13_T4,BB13,exp_ma,60,1.0,sma__60,1.0,EXACT MATCH,YES
+BB13_T5,BB13,exp_ma,120,1.0,exp_ma__60,1.0,EXACT MATCH,YES
+BB13_T6,BB13,exp_ma,120,1.0,sma__120,0.9999,EXACT MATCH,YES
+BB13_T7,BB13,exp_ma,300,1.0,sma__300,0.9999,EXACT MATCH,YES
+BB13_T8,BB13,exp_ma,600,1.0,sma__600,0.9997,EXACT MATCH,YES
+BB13_T9,BB13,exp_ma,1200,0.9997,exp_ma__600,0.9996,EXACT MATCH,YES
+BB13_T10,BB13,exp_ma,1800,0.9998,exp_ma__1200,0.9998,EXACT MATCH,YES
+BB13_T11,BB13,exp_ma,1800,1.0,exp_ma__1200,0.9992,EXACT MATCH,YES
+BB13_T12,BB13,exp_ma,3600,1.0,sma__3600,0.9984,EXACT MATCH,YES
+BB14_T1,BB14,range_high,5,1.0,exp_ma__5,1.0,EXACT MATCH,YES
+BB14_T2,BB14,range_high,10,1.0,range_high__5,1.0,EXACT MATCH,YES
+BB14_T3,BB14,exp_ma,30,1.0,sma__30,1.0,EXACT MATCH,YES
+BB14_T4,BB14,exp_ma,60,1.0,sma__60,1.0,EXACT MATCH,YES
+BB14_T5,BB14,exp_ma,120,1.0,exp_ma__60,0.9999,EXACT MATCH,YES
+BB14_T6,BB14,exp_ma,120,1.0,sma__120,0.9999,EXACT MATCH,YES
+BB14_T7,BB14,exp_ma,300,1.0,sma__300,0.9999,EXACT MATCH,YES
+BB14_T8,BB14,exp_ma,600,1.0,sma__600,0.9997,EXACT MATCH,YES
+BB14_T9,BB14,exp_ma,1200,0.9997,exp_ma__600,0.9996,EXACT MATCH,YES
+BB14_T10,BB14,exp_ma,1800,0.9998,exp_ma__1200,0.9998,EXACT MATCH,YES
+BB14_T11,BB14,exp_ma,1800,1.0,exp_ma__1200,0.9992,EXACT MATCH,YES
+BB14_T12,BB14,exp_ma,3600,1.0,sma__3600,0.9983,EXACT MATCH,YES
+BB15_T1,BB15,range_low,5,1.0,exp_ma__5,1.0,EXACT MATCH,YES
+BB15_T2,BB15,range_low,10,1.0,range_low__5,1.0,EXACT MATCH,YES
+BB15_T3,BB15,exp_ma,30,1.0,sma__30,1.0,EXACT MATCH,YES
+BB15_T4,BB15,exp_ma,60,1.0,sma__60,1.0,EXACT MATCH,YES
+BB15_T5,BB15,exp_ma,120,1.0,exp_ma__60,0.9999,EXACT MATCH,YES
+BB15_T6,BB15,exp_ma,120,1.0,sma__120,0.9999,EXACT MATCH,YES
+BB15_T7,BB15,exp_ma,300,1.0,sma__300,0.9999,EXACT MATCH,YES
+BB15_T8,BB15,exp_ma,600,1.0,sma__600,0.9997,EXACT MATCH,YES
+BB15_T9,BB15,exp_ma,1200,0.9997,exp_ma__600,0.9996,EXACT MATCH,YES
+BB15_T10,BB15,exp_ma,1800,0.9998,exp_ma__1200,0.9998,EXACT MATCH,YES
+BB15_T11,BB15,exp_ma,1800,1.0,exp_ma__1200,0.9992,EXACT MATCH,YES
+BB15_T12,BB15,exp_ma,3600,1.0,sma__3600,0.9984,EXACT MATCH,YES
+BB16,BB16,exp_ma,3600,0.931,sma__3600,0.9276,STRONG MATCH,YES
+BB17,BB17,range_high,3600,0.9213,exp_ma__3600,0.9048,STRONG MATCH,YES
+BB18,BB18,range_low,3600,0.8599,range_low__1800,0.8329,STRONG MATCH,YES
+BB19,BB19,range_high,3600,0.877,range_high__1800,0.8456,STRONG MATCH,YES
+BB20,BB20,range_low,3600,0.6822,range_low__1800,0.6454,WEAK,NO
+BB21,BB21,range_high,3600,0.824,range_high__1800,0.787,STRONG MATCH,YES
+BB22,BB22,logret_absavg,3600,0.6513,logret_vol__3600,0.6342,WEAK,NO
+BB23,BB23,sma_pct_dev,60,0.9573,sma_dev__60,0.9573,EXACT MATCH,YES
+BB24,BB24,sma_pct_dev,60,0.918,sma_dev__60,0.918,STRONG MATCH,YES
+BB25,BB25,pct_momentum,10,0.848,logret_avg__10,0.848,STRONG MATCH,YES
+BB26,BB26,exp_ma,5,0.8537,range_high__5,0.8537,STRONG MATCH,YES
