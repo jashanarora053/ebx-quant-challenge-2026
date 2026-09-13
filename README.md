@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains an end-to-end quantitative research pipeline built for the **EBX Quant Challenge **. The analysis evaluates 1-second price bars across three core dimensions:
 1. **Part 1 (Data Hygiene & Descriptive Statistics):** Ingestion sanity checks, microstructure noise diagnostics via autocorrelation, and 5-minute binned intraday volatility seasonality.
@@ -14,7 +14,7 @@ This repository contains an end-to-end quantitative research pipeline built for 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 
 ```text
@@ -67,7 +67,7 @@ ebx-quant-challenge-2026/
 ```
 
 
-## 🔬 Key Empirical Findings
+## Key Empirical Findings
 
 ### Part 1: Data Hygiene & Descriptive Statistics
 * **Data Scope:** 70 available sessions (Days 1–64, 80–85) analyzed. Days 65–79 are explicitly treated as an un-interpolated missing gap.
@@ -108,7 +108,7 @@ python src/regime_transitions.py
 ---
 ---
 
-## 🚀 Reproduction Guide
+## Reproduction Guide
 
 ### 1. Environment Setup
 ```bash
@@ -118,7 +118,7 @@ pip install pandas numpy scipy matplotlib seaborn
 
 
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 | Tool / Library | Purpose |
 |---|---|
